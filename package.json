@@ -1,0 +1,32 @@
+{
+  "name": "seasons-dates",
+  "version": "0.0.1",
+  "description": "Returns summer, winter, autumn and spring seasons dates given a specifc year.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jshint && npm run mocha",
+    "mocha": "./node_modules/.bin/mocha",
+    "jshint": "./node_modules/.bin/jshint *.js test/*.js"
+  },
+  "keywords": [
+    "season",
+    "date",
+    "autumn",
+    "summer",
+    "spring",
+    "fall",
+    "winter",
+    "equinox",
+    "solstice"
+  ],
+  "author": "Nicola Pietroluongo <nik.longstone@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "3.2.*",
+    "jshint": "2.9.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niklongstone/seasons-dates.git"
+  }
+}
